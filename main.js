@@ -23,7 +23,7 @@ $(document).ready(function() {
         loop: true
     });
     var now=Date.now();
-    var love = new Date("2021-11-22");
+    var love = new Date("2021-11-20");
     var count=now-love;
     var days = Math.floor(count / (1000 * 60 * 60 * 24));
     var typed = new Typed(".typing-2", {
